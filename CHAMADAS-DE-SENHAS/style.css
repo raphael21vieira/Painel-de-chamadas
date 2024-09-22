@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: #003b8c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+ 
+
+}
+
+.container-senha{
+  width: 400px;
+  height: 300px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  border-style: solid;
+  border-radius: 18px;
+  background-color: #497bd6;
+}
+
+h2{
+  font-size: 45px;
+}
+.senha{
+  text-align: center;
+}
+
+.legenda{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 90px;
+}
+h4{
+  color: goldenrod;
+}
